@@ -15,6 +15,7 @@ function [t, files] = get_totals(files, thr, msk)
 % image, and that therefore, all images have the same dimensions.]
 
 % Alifano y el gallego escriben algo
+%EL GALLEGO ES EL MEJOR
 
 % check spm version:
 if exist('spm_select','file') % should be true for spm5
