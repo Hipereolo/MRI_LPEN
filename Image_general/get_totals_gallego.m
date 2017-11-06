@@ -56,4 +56,4 @@ for n = 1:N
     img = spm_read_vols(vols(n));
     img = img .* msk;
     t(n) = sum(img(img > thr)) * vsz / 1000; % vsz in mm^3 (= 0.001 ml)
-end
+end;kk
