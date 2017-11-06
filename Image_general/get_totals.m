@@ -14,6 +14,8 @@ function [t, files] = get_totals(files, thr, msk)
 % [Currently, masking assumes that msk matches the voxel dimensions of each
 % image, and that therefore, all images have the same dimensions.]
 
+% Alifano y el gallego escriben algo
+
 % check spm version:
 if exist('spm_select','file') % should be true for spm5
     spm5 = 1;
