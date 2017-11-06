@@ -1,5 +1,6 @@
 function [t, files] = get_totals(files, thr, msk)
 %get_totals - Returns image totals (sum over all voxels), in ml
+% fiesta lelelelele
 %  t = get_totals
 %  [t files] = get_totals(files, thr, msk)
 % GUI file-selection is used if files not specified as argument (or empty).
